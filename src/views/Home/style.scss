@@ -1,0 +1,23 @@
+@import '~scss/base';
+
+#mba-home-view {
+    font-family: inherit;
+    height: 50px;
+
+    .title {
+        height: 100%;
+        background-color: $main;
+        color: $white;
+    }
+
+    .content {
+        height: 100%;
+        background-color: $black;
+        color: $white;
+    }
+
+    .action {
+        height: 100%;
+        background-color: $error;
+    }
+}
